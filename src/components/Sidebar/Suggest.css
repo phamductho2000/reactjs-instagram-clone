@@ -1,0 +1,25 @@
+.suggest {
+  margin-top: 30px;
+  margin-left: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+.suggest_user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.suggest_another_user {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  width: 20%;
+  justify-content: space-between;
+}
+
+.name_suggest_another_user {
+  font-weight: 600;
+  margin-left: 10px;
+}

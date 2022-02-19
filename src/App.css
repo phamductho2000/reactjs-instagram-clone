@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+.app {
+  background-color: #fafafa;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slick-thumb {
+  bottom: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.slick-prev {
+  left: 1px !important;
+  z-index: 10;
+}
+
+.slick-next {
+  right: 1px !important;
+  z-index: 10;
+}
+
+.slick-slide img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.post_detailRight {
+  border-left: 1px solid lightgray;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.slick-track {
+  display: flex !important;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.reactEasyCrop_Container {
+  position: relative !important;
 }

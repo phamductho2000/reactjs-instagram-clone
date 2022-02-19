@@ -1,0 +1,16 @@
+.profile {
+  max-width: 900px;
+  margin: 60px auto 30px;
+  padding: 30px;
+}
+
+.profile_header {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile_info {
+  margin-left: 50px;
+}

@@ -1,0 +1,29 @@
+.app_header {
+  background-color: white;
+  object-fit: contain;
+  padding: 15px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+}
+
+.modal-caption-right {
+  border-left: 1px solid lightgray;
+  padding: 20px;
+}
+
+.ant-carousel .slick-dots li button {
+  background: black;
+}
+
+.modal-caption-left {
+  padding: 0px;
+}
+
+.header_menu {
+  display: flex;
+}

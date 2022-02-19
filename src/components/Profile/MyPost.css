@@ -1,0 +1,32 @@
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.middle .countLike,
+.countComment {
+  color: #fff;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.my_post_container {
+  position: relative;
+}
+
+.my_post_container:hover .middle {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
